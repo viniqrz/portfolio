@@ -1,6 +1,6 @@
 import { BentoGrid, BentoItem } from './components/BentoGrid';
 import { CryptoTile } from './components/tiles/CryptoTile';
-import { ResearchTile } from './components/tiles/ResearchTile';
+import { ProjectsTile } from './components/tiles/ProjectsTile';
 import { ContactTile } from './components/tiles/ContactTile';
 import { Code, User } from 'lucide-react';
 
@@ -43,9 +43,9 @@ function App() {
           <ContactTile />
         </BentoItem>
 
-        {/* Research / Projects Tile */}
+        {/* Projects Tile */}
         <BentoItem className="md:col-span-2 md:row-span-1">
-          <ResearchTile />
+          <ProjectsTile />
         </BentoItem>
 
         {/* Tech Stack / Code Tile Placeholder */}

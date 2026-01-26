@@ -1,0 +1,44 @@
+[
+  {
+    "name": "pay-with-crypto-ai",
+    "description": "Full-stack TypeScript app (React/NestJS) facilitating instant crypto-to-fiat payments using AI for risk assessment and dynamic UI generation.",
+    "url": "https://github.com/viniqrz/pay-with-crypto-ai",
+    "topics": ["typescript", "react", "nestjs", "blockchain", "ai"]
+  },
+  {
+    "name": "safe-credit-card-checkout",
+    "description": "Reference implementation of a PCI-DSS Compliant Tokenization flow using End-to-End Encryption (E2EE) with React and Python FastAPI.",
+    "url": "https://github.com/viniqrz/safe-credit-card-checkout",
+    "topics": ["security", "pci-dss", "encryption", "python", "react"]
+  },
+  {
+    "name": "tech-news-scraper",
+    "description": "TLDR Tech News Scraper with Docker support 🐳 and multiple output formats 📄. Automated aggregation of tech news.",
+    "url": "https://github.com/viniqrz/tech-news-scraper",
+    "topics": ["scraping", "docker", "python"]
+  },
+  {
+    "name": "ai-resume-parser-matcher",
+    "description": "AI-powered resume parser and job matcher that compares resumes against job descriptions using Cloudflare Workers AI.",
+    "url": "https://github.com/viniqrz/ai-resume-parser-matcher",
+    "topics": ["ai", "cloudflare-workers", "resume-parser"]
+  },
+  {
+    "name": "ai-code-review-bot",
+    "description": "AI-powered code review bot that analyzes pull requests, identifies issues, and suggests improvements using LLMs.",
+    "url": "https://github.com/viniqrz/ai-code-review-bot",
+    "topics": ["ai", "bot", "github-actions"]
+  },
+  {
+    "name": "vibecoding-demo-projects",
+    "description": "A collection of experimental projects, proofs of concept, and technical demos exploring new web technologies.",
+    "url": "https://github.com/viniqrz/vibecoding-demo-projects",
+    "topics": ["demos", "poc", "experiments"]
+  },
+  {
+    "name": "portfolio",
+    "description": "High-performance static portfolio built with Vite and React. Features client-side data fetching and Bento Grid layout.",
+    "url": "https://github.com/viniqrz/portfolio",
+    "topics": ["react", "vite", "tailwind", "static-site"]
+  }
+]
