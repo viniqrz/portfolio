@@ -1,0 +1,14 @@
+[
+  {
+    "id": "scraper-protocol",
+    "title": "Verifiable Scraping with ZK Proofs",
+    "summary": "Methodology for trustless data acquisition from web sources using zero-knowledge proofs.",
+    "link": "/pdfs/research-paper.pdf"
+  },
+  {
+    "id": "static-arch",
+    "title": "The Renaissance of Static Sites",
+    "summary": "Why modern build tools make serverless architectures superior for personal portfolios.",
+    "link": "#"
+  }
+]
