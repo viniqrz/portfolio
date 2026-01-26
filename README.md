@@ -1,11 +1,3 @@
-Here is the adjusted **README.md** tailored for a **Static Site** architecture.
-
-To achieve "Static HTML with React," the best modern approach is using **Vite** (for a pure Single Page App) or **Next.js with Static Exports** (`output: 'export'`).
-
-This specification uses **Vite + React**. It produces a simple `dist` folder with `index.html`, CSS, and JS that you can drag-and-drop onto any host (GitHub Pages, Vercel, Netlify, or an S3 bucket) without needing a Node.js server.
-
----
-
 # 🍱 Bento Portfolio (Static Build)
 
 > **Architecture**: Client-Side Static (SPA)
