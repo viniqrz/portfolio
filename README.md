@@ -109,8 +109,8 @@ graph TD
 Scaffold the project specifically for React/TypeScript.
 
 ```bash
-npm create vite@latest bento-portfolio -- --template react-ts
-cd bento-portfolio
+npm create vite@latest portfolio -- --template react-ts
+cd portfolio
 npm install
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
