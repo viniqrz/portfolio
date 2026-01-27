@@ -4,9 +4,9 @@ import profileData from '../../data/profile.json';
 export const ContactTile = () => {
   return (
     <div className="flex flex-col h-full justify-center items-center text-center gap-4">
-      <h3 className="text-lg font-bold text-neutral-800 dark:text-neutral-100">Let's Connect</h3>
+      <h3 className="text-lg font-bold text-neutral-800 dark:text-neutral-100">Let's Connect 🤝</h3>
       <p className="text-sm text-neutral-600 dark:text-neutral-400">
-        Open to new opportunities and collaborations.
+        Open to new opportunities and collaborations!
       </p>
       <div className="flex gap-4 mt-2">
         <a 

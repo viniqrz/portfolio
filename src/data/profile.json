@@ -1,13 +1,27 @@
 {
-  "name": "Vini",
-  "role": "Senior Full Stack Engineer",
-  "bio": "I'm a passionate Software Engineer, coding has been part of my life since childhood and has never left. Currently a Senior Full Stack Engineer and vibe coding on my spare time. Interested in Blockchain and Web3.",
+  "name": "Vinicius Soares",
+  "role": "Senior Full Stack Engineer 🚀",
+  "bio": "👨‍💻 Passionate Software Engineer coding since childhood! Currently a Senior Full Stack Engineer vibe coding in my spare time. 🌐 Interested in Blockchain, Web3, and building cool stuff.",
   "avatar": "https://github.com/viniqrz.png",
+  "resumeUrl": "/portfolio/resume.pdf",
   "socials": {
     "email": "viniderp@gmail.com",
     "linkedin": "https://www.linkedin.com/in/viniqrz",
     "github": "https://github.com/viniqrz"
   },
+  "languages": [
+    { "name": "English", "level": "Fluent", "flag": "🇺🇸" },
+    { "name": "Portuguese", "level": "Native", "flag": "🇧🇷" },
+    { "name": "Spanish", "level": "Intermediate", "flag": "🇪🇸" },
+    { "name": "German", "level": "Basic", "flag": "🇩🇪" },
+    { "name": "French", "level": "Basic", "flag": "🇫🇷" }
+  ],
+  "hobbies": [
+    { "name": "Cooking", "emoji": "👨‍🍳" },
+    { "name": "Coding", "emoji": "💻" },
+    { "name": "Travel", "emoji": "✈️" },
+    { "name": "Gaming", "emoji": "🎮" }
+  ],
   "stack": [
     "Javascript", "Typescript", "Python", "Java", "Golang", "Solidity",
     "Node.js", "ReactJS", "NestJS", "Express", "TypeORM", "Next", "Tailwind",
