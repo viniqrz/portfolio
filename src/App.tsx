@@ -64,7 +64,7 @@ function App() {
           <div className="flex flex-col gap-4">
             <BentoItem className="h-fit">
               <div className="flex flex-col">
-                <div className="flex items-center gap-2 mb-6 text-neutral-400">
+                <div className="flex items-center gap-2 mb-6 text-blue-400/80">
                   <Code size={20} /> 
                   <span className="text-sm font-semibold tracking-wider uppercase">Tech Stack 🛠️</span>
                 </div>
