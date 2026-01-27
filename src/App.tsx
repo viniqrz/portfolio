@@ -39,56 +39,60 @@ function App() {
           <div className="w-32 h-32 md:w-40 md:h-40">
              <GlobeCanvas />
           </div>
-        <a 
-          href={profileData.resumeUrl} 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center gap-3 px-10 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 hover:scale-105 active:scale-95 relative z-20 mt-8 md:mt-0 min-w-[240px]"
-        >
-          <Download size={22} />
-          Download Resume 📄
-        </a>
+          <a 
+            href={profileData.resumeUrl} 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-3 px-10 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 hover:scale-105 active:scale-95 relative z-20 mt-8 md:mt-0 min-w-[264px]"
+          >
+            <Download size={22} />
+            Download Resume 📄
+          </a>
         </div>
       </div>
 
-      <BentoGrid>
-        {/* Projects Tile - Main Feature (2/3 width) */}
-        <BentoItem className="md:col-span-2 md:row-span-2">
-          <ProjectsTile />
-        </BentoItem>
-
-        {/* Tech Stack Tile - Dynamic Height */}
-        <BentoItem className="md:col-span-1 md:row-span-1 h-fit">
-          <div className="flex flex-col">
-            <div className="flex items-center gap-2 mb-6 text-neutral-400">
-              <Code size={20} /> 
-              <span className="text-sm font-semibold tracking-wider uppercase">Tech Stack 🛠️</span>
-            </div>
-            <div className="flex flex-wrap gap-2.5">
-              {profileData.stack.map(tech => (
-                <span key={tech} className="px-3.5 py-1.5 bg-white/5 hover:bg-white/10 rounded-xl text-xs font-medium border border-white/10 transition-colors">
-                  {tech}
-                </span>
-              ))}
-            </div>
+      <div className="max-w-[1124px] mx-auto flex flex-col gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Main Content Column (2/3) */}
+          <div className="md:col-span-2 flex flex-col gap-6">
+            <BentoItem className="h-full">
+              <ProjectsTile />
+            </BentoItem>
           </div>
-        </BentoItem>
 
-        {/* Languages Tile - Dynamic Height */}
-        <BentoItem className="md:col-span-1 md:row-span-1 h-fit">
-          <LanguagesTile />
-        </BentoItem>
+          {/* Sidebar Column (1/3) - No Gaps Strategy */}
+          <div className="flex flex-col gap-6">
+            <BentoItem className="h-fit">
+              <div className="flex flex-col">
+                <div className="flex items-center gap-2 mb-6 text-neutral-400">
+                  <Code size={20} /> 
+                  <span className="text-sm font-semibold tracking-wider uppercase">Tech Stack 🛠️</span>
+                </div>
+                <div className="flex flex-wrap gap-2.5">
+                  {profileData.stack.map(tech => (
+                    <span key={tech} className="px-3.5 py-1.5 bg-white/5 hover:bg-white/10 rounded-xl text-xs font-medium border border-white/10 transition-colors">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </BentoItem>
 
-        {/* Hobbies Tile */}
-        <BentoItem className="md:col-span-1 md:row-span-1">
-          <HobbiesTile />
-        </BentoItem>
+            <BentoItem className="h-fit">
+              <LanguagesTile />
+            </BentoItem>
 
-        {/* Contact Tile - Centered horizontally at the bottom */}
-        <BentoItem className="md:col-span-3 border-blue-500/20 bg-blue-500/10 py-12">
+            <BentoItem className="h-full">
+              <HobbiesTile />
+            </BentoItem>
+          </div>
+        </div>
+
+        {/* Full-width bottom section */}
+        <BentoItem className="border-blue-500/20 bg-blue-500/10 py-12">
           <ContactTile />
         </BentoItem>
-      </BentoGrid>
+      </div>
       
       <footer className="max-w-[1124px] mx-auto mt-24 pb-12 text-center text-slate-500 text-sm border-t border-white/5 pt-12">
         <p>© {new Date().getFullYear()} {profileData.name}. Built with Passion, React & Vite ⚡</p>

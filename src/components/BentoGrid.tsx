@@ -5,7 +5,7 @@ export const BentoGrid = ({ children, className }: { children: ReactNode; classN
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[1124px] mx-auto auto-rows-min",
+        "grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[1124px] mx-auto",
         className
       )}
     >
@@ -26,12 +26,12 @@ export const BentoItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 rounded-3xl group/bento hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500 p-6 glass-card justify-between flex flex-col space-y-4",
+        "rounded-3xl group/bento hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500 p-6 glass-card flex flex-col space-y-4 h-full",
         className
       )}
     >
       {header}
-      <div className="group-hover/bento:translate-x-2 transition duration-200">
+      <div className="group-hover/bento:translate-x-2 transition duration-200 h-full flex flex-col">
         {children}
       </div>
     </div>
