@@ -43,7 +43,7 @@ function App() {
             href={profileData.resumeUrl} 
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 px-10 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 hover:scale-105 active:scale-95 relative z-20 mt-8 md:mt-0 min-w-[320px]"
+            className="flex items-center justify-center gap-3 px-10 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 hover:scale-105 active:scale-95 relative z-20 mt-8 md:mt-0 min-w-[360px]"
           >
             <Download size={22} />
             Download Resume 📄
@@ -61,7 +61,7 @@ function App() {
           </div>
 
           {/* Sidebar Column (1/3) - No Gaps Strategy */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-4">
             <BentoItem className="h-fit">
               <div className="flex flex-col">
                 <div className="flex items-center gap-2 mb-6 text-neutral-400">
