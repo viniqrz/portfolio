@@ -52,7 +52,7 @@ function App() {
               {profileData.name} 
             </motion.h1>
             <motion.span variants={itemVariants} className="text-blue-400 text-xl md:text-3xl block mb-6 font-medium">{profileData.role}</motion.span>
-            <motion.p variants={itemVariants} className="text-lg md:text-xl text-slate-400 max-w-2xl leading-relaxed">
+            <motion.p variants={itemVariants} className="text-lg md:text-xl text-slate-400 max-w-2xl leading-relaxed text-justify">
               {profileData.bio}
             </motion.p>
           </div>
