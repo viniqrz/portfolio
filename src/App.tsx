@@ -59,7 +59,7 @@ function App() {
         </div>
         
         <div className="flex flex-col items-center gap-4 relative z-20 mt-8 md:mt-0 w-full md:w-auto">
-          <motion.div variants={itemVariants} className="w-32 h-32 md:w-40 md:h-40">
+          <motion.div variants={itemVariants} className="w-64 h-64 md:w-40 md:h-40">
              <GlobeCanvas />
           </motion.div>
           <motion.a 
