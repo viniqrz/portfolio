@@ -1,4 +1,5 @@
-import { Mail, Github, Twitter } from 'lucide-react';
+import { Mail, Linkedin, Github } from 'lucide-react';
+import profileData from '../../data/profile.json';
 
 export const ContactTile = () => {
   return (
@@ -9,14 +10,14 @@ export const ContactTile = () => {
       </p>
       <div className="flex gap-4 mt-2">
         <a 
-          href="mailto:hello@example.com" 
+          href={`mailto:${profileData.socials.email}`} 
           className="p-3 rounded-full bg-neutral-100 dark:bg-neutral-900 hover:bg-blue-100 dark:hover:bg-blue-900/30 text-neutral-700 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
           aria-label="Email"
         >
           <Mail size={20} />
         </a>
         <a 
-          href="https://github.com" 
+          href={profileData.socials.github} 
           target="_blank" 
           rel="noopener noreferrer"
           className="p-3 rounded-full bg-neutral-100 dark:bg-neutral-900 hover:bg-neutral-200 dark:hover:bg-neutral-800 text-neutral-700 dark:text-neutral-300 transition-colors"
@@ -25,13 +26,13 @@ export const ContactTile = () => {
           <Github size={20} />
         </a>
         <a 
-          href="https://twitter.com" 
+          href={profileData.socials.linkedin} 
           target="_blank" 
           rel="noopener noreferrer"
           className="p-3 rounded-full bg-neutral-100 dark:bg-neutral-900 hover:bg-blue-50 dark:hover:bg-blue-900/20 text-neutral-700 dark:text-neutral-300 hover:text-blue-400 transition-colors"
-          aria-label="Twitter"
+          aria-label="LinkedIn"
         >
-          <Twitter size={20} />
+          <Linkedin size={20} />
         </a>
       </div>
     </div>

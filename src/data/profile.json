@@ -1,0 +1,17 @@
+{
+  "name": "Vini",
+  "role": "Senior Full Stack Engineer",
+  "bio": "I'm a passionate Software Engineer, coding has been part of my life since childhood and has never left. Currently a Senior Full Stack Engineer and vibe coding on my spare time. Interested in Blockchain and Web3.",
+  "socials": {
+    "email": "viniderp@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/viniqrz",
+    "github": "https://github.com/viniqrz"
+  },
+  "stack": [
+    "Javascript", "Typescript", "Python", "Java", "Golang", "Solidity",
+    "Node.js", "ReactJS", "NestJS", "Express", "TypeORM", "Next", "Tailwind",
+    "FastAPI", "Flask", "Hardhat", "Ethers.js", "LangChain", "Docker", "Flutter",
+    "OpenAI API", "AWS", "LLMs", "Remix", "Django", "Spring", "Postgres",
+    "DynamoDB", "MongoDB"
+  ]
+}
