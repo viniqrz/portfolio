@@ -9,7 +9,7 @@ import profileData from './data/profile.json';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#020617] p-4 md:p-8 font-sans text-slate-200 relative overflow-hidden">
+    <div className="min-h-screen bg-[#020617] p-4 md:p-8 font-sans text-slate-200 relative overflow-x-hidden">
       <div className="liquid-background">
         <div className="blob w-[50rem] h-[50rem] bg-blue-600/30 top-[-20%] left-[-10%]" />
         <div className="blob w-[45rem] h-[45rem] bg-indigo-600/20 top-[20%] right-[-15%]" />
@@ -17,7 +17,7 @@ function App() {
         <div className="blob w-[35rem] h-[35rem] bg-purple-600/10 bottom-[20%] right-[10%]" />
       </div>
 
-      <div className="max-w-7xl mx-auto mb-16 mt-8 flex flex-col md:flex-row gap-8 items-start md:items-center justify-between relative z-10">
+      <div className="max-w-[1124px] mx-auto mb-16 mt-8 flex flex-col md:flex-row gap-8 items-start md:items-center justify-between relative z-10">
         <div className="flex flex-col md:flex-row gap-8 items-center relative z-20">
           <img 
             src={profileData.avatar} 
@@ -35,19 +35,20 @@ function App() {
           </div>
         </div>
         
-        <div className="absolute top-[-50px] right-[-100px] w-[400px] h-[400px] hidden lg:block">
-           <GlobeCanvas />
+        <div className="flex flex-col items-center gap-4 relative z-20 mt-8 md:mt-0">
+          <div className="w-32 h-32 md:w-40 md:h-40">
+             <GlobeCanvas />
+          </div>
+          <a 
+            href={profileData.resumeUrl} 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 hover:scale-105 active:scale-95"
+          >
+            <Download size={22} />
+            Download Resume 📄
+          </a>
         </div>
-
-        <a 
-          href={profileData.resumeUrl} 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 hover:scale-105 active:scale-95 relative z-20 mt-8 md:mt-0"
-        >
-          <Download size={22} />
-          Download Resume 📄
-        </a>
       </div>
 
       <BentoGrid>
@@ -89,7 +90,7 @@ function App() {
         </BentoItem>
       </BentoGrid>
       
-      <footer className="max-w-7xl mx-auto mt-24 pb-12 text-center text-slate-500 text-sm border-t border-white/5 pt-12">
+      <footer className="max-w-[1124px] mx-auto mt-24 pb-12 text-center text-slate-500 text-sm border-t border-white/5 pt-12">
         <p>© {new Date().getFullYear()} {profileData.name}. Built with Passion, React & Vite ⚡</p>
       </footer>
     </div>
