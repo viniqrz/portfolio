@@ -1,7 +1,7 @@
 {
   "name": "Vinicius Soares",
   "role": "Senior Full Stack Engineer 🚀",
-  "bio": "👨‍💻 Passionate Software Engineer coding since childhood! Currently a Senior Full Stack Engineer vibe coding in my spare time. 🌐 Interested in Blockchain, Web3, and building cool stuff.",
+  "bio": "Senior Full Stack Engineer with 5+ years of experience crafting high-impact applications. 🚀 From indexing 300M+ records to optimizing rocket launch systems for the Brazilian Space Agency. 🛰️ Impacted 11M+ users with scalable architectures in fintech, health, and aerospace. 👨‍💻 Technical lead focused on performance and code quality.",
   "avatar": "https://github.com/viniqrz.png",
   "resumeUrl": "/portfolio/Vinicius_Soares__CV__Software_Engineer.pdf",
   "socials": {
@@ -24,9 +24,9 @@
   ],
   "stack": [
     "Javascript", "Typescript", "Python", "Java", "Golang", "Solidity",
-    "Node.js", "ReactJS", "NestJS", "Express", "TypeORM", "Next", "Tailwind",
-    "FastAPI", "Flask", "Hardhat", "Ethers.js", "LangChain", "Docker", "Flutter",
-    "OpenAI API", "AWS", "LLMs", "Remix", "Django", "Spring", "Postgres",
-    "DynamoDB", "MongoDB"
+    "Node.js", "ReactJS", "NestJS", "Express", "TypeORM", "Next.js", "Tailwind",
+    "FastAPI", "Flask", "Hardhat", "Ethers.js", "LangChain", "Docker", "Kubernetes",
+    "OpenAI API", "AWS (Lambda, ECS, S3)", "Kafka", "PostgreSQL", "ElasticSearch",
+    "DynamoDB", "MongoDB", "Terraform", "Jenkins"
   ]
 }

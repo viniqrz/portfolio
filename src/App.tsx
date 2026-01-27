@@ -1,5 +1,6 @@
 import { BentoItem } from './components/BentoGrid';
 import { ProjectsTile } from './components/tiles/ProjectsTile';
+import { ImpactTile } from './components/tiles/ImpactTile';
 import { ContactTile } from './components/tiles/ContactTile';
 import { LanguagesTile } from './components/tiles/LanguagesTile';
 import { HobbiesTile } from './components/tiles/HobbiesTile';
@@ -80,13 +81,16 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Main Content Column (2/3) */}
           <div className="md:col-span-2 flex flex-col gap-6">
-            <BentoItem className="h-full">
+            <BentoItem className="h-fit">
               <ProjectsTile />
+            </BentoItem>
+            <BentoItem className="h-fit">
+              <ImpactTile />
             </BentoItem>
           </div>
 
-          {/* Sidebar Column (1/3) - No Gaps Strategy */}
-          <div className="flex flex-col gap-4">
+          {/* Sidebar Column (1/3) */}
+          <div className="flex flex-col gap-6">
             <BentoItem className="h-fit">
               <div className="flex flex-col">
                 <div className="flex items-center gap-2 mb-6 text-blue-400/80">
