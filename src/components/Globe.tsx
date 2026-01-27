@@ -15,29 +15,46 @@ const Earth = () => {
     const context = canvas.getContext('2d');
     if (!context) return null;
 
-    // Fill with ocean blue
-    context.fillStyle = '#0047ab';
+    // Fill with vibrant ocean blue
+    context.fillStyle = '#1e3a8a'; 
     context.fillRect(0, 0, canvas.width, canvas.height);
 
-    // Draw "continents" as green blobs
-    context.fillStyle = '#2d5a27';
-    for (let i = 0; i < 40; i++) {
-      const x = Math.random() * canvas.width;
-      const y = Math.random() * canvas.height;
-      const radiusX = Math.random() * 150 + 50;
-      const radiusY = Math.random() * 100 + 30;
-      
-      context.beginPath();
-      context.ellipse(x, y, radiusX, radiusY, Math.random() * Math.PI, 0, Math.PI * 2);
-      context.fill();
+    // Draw continents with light green
+    context.fillStyle = '#4ade80';
 
-      // Add some smaller "islands"
-      for (let j = 0; j < 3; j++) {
+    const drawContinent = (x: number, y: number, w: number, h: number, rotate = 0) => {
+      context.save();
+      context.translate(x, y);
+      context.rotate(rotate);
+      context.beginPath();
+      context.ellipse(0, 0, w, h, 0, 0, Math.PI * 2);
+      context.fill();
+      
+      // Add some "jaggedness" with smaller circles
+      for (let i = 0; i < 8; i++) {
+        const ox = (Math.random() - 0.5) * w * 1.5;
+        const oy = (Math.random() - 0.5) * h * 1.5;
         context.beginPath();
-        context.arc(x + Math.random() * 100 - 50, y + Math.random() * 100 - 50, Math.random() * 20, 0, Math.PI * 2);
+        context.arc(ox, oy, Math.random() * (w/3), 0, Math.PI * 2);
         context.fill();
       }
-    }
+      context.restore();
+    };
+
+    // North America
+    drawContinent(250, 150, 120, 80, -0.2);
+    // South America
+    drawContinent(320, 350, 60, 100, 0.1);
+    // Africa
+    drawContinent(520, 300, 70, 90);
+    // Europe
+    drawContinent(510, 140, 50, 40);
+    // Asia
+    drawContinent(750, 180, 180, 100);
+    // Oceania
+    drawContinent(850, 400, 50, 40);
+    // Antarctica
+    context.fillRect(0, 490, 1024, 22);
 
     const texture = new THREE.CanvasTexture(canvas);
     texture.needsUpdate = true;
@@ -45,8 +62,8 @@ const Earth = () => {
   }, []);
 
   useFrame(() => {
-    if (meshRef.current) meshRef.current.rotation.y += 0.004;
-    if (cloudsRef.current) cloudsRef.current.rotation.y += 0.005;
+    if (meshRef.current) meshRef.current.rotation.y += 0.003;
+    if (cloudsRef.current) cloudsRef.current.rotation.y += 0.004;
   });
 
   return (
@@ -55,8 +72,8 @@ const Earth = () => {
       <Sphere ref={meshRef} args={[1, 64, 64]} scale={1.8}>
         <meshPhongMaterial
           map={earthTexture}
-          shininess={10}
-          specular={new THREE.Color('#222222')}
+          shininess={15}
+          specular={new THREE.Color('#333333')}
         />
       </Sphere>
       
@@ -65,7 +82,7 @@ const Earth = () => {
         <meshPhongMaterial
           color="#ffffff"
           transparent
-          opacity={0.2}
+          opacity={0.15}
           depthWrite={false}
         />
       </Sphere>
@@ -73,9 +90,9 @@ const Earth = () => {
       {/* Atmosphere Glow */}
       <Sphere args={[1.05, 64, 64]} scale={1.8}>
         <meshPhongMaterial
-          color="#3b82f6"
+          color="#60a5fa"
           transparent
-          opacity={0.05}
+          opacity={0.08}
           side={THREE.BackSide}
         />
       </Sphere>
@@ -87,11 +104,11 @@ export const GlobeCanvas = () => {
   return (
     <div className="w-full h-full pointer-events-none">
       <Canvas camera={{ position: [0, 0, 5], fov: 45 }} gl={{ antialias: true, alpha: true }}>
-        <Stars radius={100} depth={50} count={2000} factor={4} saturation={0} fade speed={1} />
-        <ambientLight intensity={1.5} />
-        <pointLight position={[10, 10, 10]} intensity={2} color="#ffffff" />
-        <pointLight position={[-10, 5, -10]} intensity={1} color="#3b82f6" />
-        <Float speed={2} rotationIntensity={0.3} floatIntensity={0.4}>
+        <Stars radius={100} depth={50} count={1500} factor={4} saturation={0} fade speed={1} />
+        <ambientLight intensity={1.2} />
+        <pointLight position={[10, 10, 10]} intensity={1.5} color="#ffffff" />
+        <pointLight position={[-10, 5, -10]} intensity={0.8} color="#3b82f6" />
+        <Float speed={1.5} rotationIntensity={0.2} floatIntensity={0.3}>
           <Earth />
         </Float>
       </Canvas>
