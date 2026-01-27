@@ -39,15 +39,15 @@ function App() {
           <div className="w-32 h-32 md:w-40 md:h-40">
              <GlobeCanvas />
           </div>
-          <a 
-            href={profileData.resumeUrl} 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 hover:scale-105 active:scale-95"
-          >
-            <Download size={22} />
-            Download Resume 📄
-          </a>
+        <a 
+          href={profileData.resumeUrl} 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-3 px-10 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 hover:scale-105 active:scale-95 relative z-20 mt-8 md:mt-0 min-w-[240px]"
+        >
+          <Download size={22} />
+          Download Resume 📄
+        </a>
         </div>
       </div>
 

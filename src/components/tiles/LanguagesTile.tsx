@@ -4,18 +4,18 @@ import { Languages } from 'lucide-react';
 export const LanguagesTile = () => {
   return (
     <div className="flex flex-col h-full">
-      <div className="flex items-center gap-2 mb-4 text-neutral-500 dark:text-neutral-400">
+      <div className="flex items-center gap-2 mb-6 text-blue-400/80">
         <Languages size={20} />
-        <span className="text-sm">Languages 🌍</span>
+        <span className="text-sm font-semibold tracking-wider uppercase">Languages 🌍</span>
       </div>
       <div className="flex flex-col gap-3">
         {profileData.languages.map((lang) => (
-          <div key={lang.name} className="flex items-center justify-between p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800/50">
+          <div key={lang.name} className="flex items-center justify-between p-3 rounded-2xl bg-white/5 border border-white/5">
             <div className="flex items-center gap-3">
               <span className="text-xl">{lang.flag}</span>
-              <span className="font-medium text-neutral-800 dark:text-neutral-200">{lang.name}</span>
+              <span className="font-bold text-slate-200">{lang.name}</span>
             </div>
-            <span className="text-xs px-2 py-1 rounded-full bg-neutral-200 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-400">
+            <span className="text-[10px] font-bold tracking-widest uppercase px-2.5 py-1 rounded-lg bg-blue-500/10 text-blue-400 border border-blue-500/20">
               {lang.level}
             </span>
           </div>

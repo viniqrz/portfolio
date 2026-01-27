@@ -4,9 +4,9 @@ import { FolderGit2, ArrowUpRight } from 'lucide-react';
 export const ProjectsTile = () => {
   return (
     <div className="flex flex-col h-full">
-      <div className="flex items-center gap-2 mb-4 text-neutral-500 dark:text-neutral-400">
+      <div className="flex items-center gap-2 mb-6 text-blue-400/80">
         <FolderGit2 size={20} />
-        <span className="text-sm">Recent Projects</span>
+        <span className="text-sm font-semibold tracking-wider uppercase">Recent Projects 📂</span>
       </div>
       <div className="flex flex-col gap-4 overflow-y-auto pr-2 custom-scrollbar">
         {projectData.map((project, index) => (
@@ -15,20 +15,20 @@ export const ProjectsTile = () => {
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group block p-3 rounded-lg bg-neutral-100 dark:bg-neutral-900 hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-colors"
+            className="group block p-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-blue-500/30 transition-all duration-300"
           >
             <div className="flex justify-between items-start">
-              <h3 className="font-semibold text-neutral-800 dark:text-neutral-200 text-sm group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              <h3 className="font-bold text-slate-100 text-base group-hover:text-blue-400 transition-colors">
                 {project.name}
               </h3>
-              <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+              <ArrowUpRight size={16} className="text-slate-500 group-hover:text-blue-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
             </div>
-            <p className="text-xs text-neutral-600 dark:text-neutral-500 mt-1 mb-2 line-clamp-2">
+            <p className="text-sm text-slate-400 mt-2 mb-3 leading-relaxed line-clamp-2">
               {project.description}
             </p>
-            <div className="flex flex-wrap gap-1.5">
+            <div className="flex flex-wrap gap-2">
               {project.topics.slice(0, 3).map(topic => (
-                 <span key={topic} className="px-2 py-0.5 text-[10px] rounded-full bg-neutral-200 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400">
+                 <span key={topic} className="px-2.5 py-1 text-[11px] font-medium rounded-lg bg-blue-500/10 text-blue-400 border border-blue-500/20">
                    #{topic}
                  </span>
               ))}
