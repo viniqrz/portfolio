@@ -8,7 +8,12 @@ import profileData from './data/profile.json';
 
 function App() {
   return (
-    <div className="min-h-screen bg-neutral-100 dark:bg-neutral-950 p-4 md:p-8 font-sans text-neutral-900 dark:text-neutral-100">
+    <div className="min-h-screen bg-neutral-100 dark:bg-neutral-950 p-4 md:p-8 font-sans text-neutral-900 dark:text-neutral-100 relative">
+      <div className="liquid-background">
+        <div className="blob w-96 h-96 bg-blue-400/30 top-[-10%] left-[-10%]" />
+        <div className="blob w-[30rem] h-[30rem] bg-purple-400/20 top-[40%] right-[-10%] animation-delay-2000" />
+        <div className="blob w-80 h-80 bg-emerald-400/20 bottom-[-10%] left-[20%]" />
+      </div>
       <div className="max-w-7xl mx-auto mb-12 mt-8 flex flex-col md:flex-row gap-8 items-start md:items-center justify-between">
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <img 
