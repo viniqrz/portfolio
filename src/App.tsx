@@ -122,7 +122,7 @@ function App() {
         </div>
 
         {/* Full-width bottom section */}
-        <BentoItem className="border-blue-500/20 bg-blue-500/10 py-12">
+        <BentoItem className="py-12 shadow-blue-500/5">
           <ContactTile />
         </BentoItem>
       </div>
