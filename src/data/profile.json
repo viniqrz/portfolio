@@ -12,15 +12,15 @@
   "languages": [
     { "name": "English", "level": "Fluent", "flag": "🇺🇸" },
     { "name": "Portuguese", "level": "Native", "flag": "🇧🇷" },
-    { "name": "Spanish", "level": "Intermediate", "flag": "🇪🇸" },
-    { "name": "German", "level": "Basic", "flag": "🇩🇪" },
-    { "name": "French", "level": "Basic", "flag": "🇫🇷" }
+    { "name": "Spanish", "level": "Fluent", "flag": "🇪🇸" },
+    { "name": "German", "level": "Advanced", "flag": "🇩🇪" },
+    { "name": "French", "level": "Intermediate", "flag": "🇫🇷" }
   ],
   "hobbies": [
     { "name": "Cooking", "emoji": "👨‍🍳" },
     { "name": "Coding", "emoji": "💻" },
     { "name": "Travel", "emoji": "✈️" },
-    { "name": "Gaming", "emoji": "🎮" }
+    { "name": "Chess", "emoji": "♟️" }
   ],
   "stack": [
     "Javascript", "Typescript", "Python", "Java", "Golang", "Solidity",
