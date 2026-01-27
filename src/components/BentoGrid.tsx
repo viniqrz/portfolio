@@ -26,7 +26,7 @@ export const BentoItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 rounded-3xl group/bento hover:shadow-2xl transition duration-300 p-6 backdrop-blur-md bg-white/40 dark:bg-black/40 border border-white/20 dark:border-white/10 justify-between flex flex-col space-y-4",
+        "row-span-1 rounded-3xl group/bento hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500 p-6 glass-card justify-between flex flex-col space-y-4",
         className
       )}
     >

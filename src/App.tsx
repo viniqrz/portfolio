@@ -8,25 +8,25 @@ import profileData from './data/profile.json';
 
 function App() {
   return (
-    <div className="min-h-screen bg-neutral-100 dark:bg-neutral-950 p-4 md:p-8 font-sans text-neutral-900 dark:text-neutral-100 relative">
+    <div className="min-h-screen bg-[#020617] p-4 md:p-8 font-sans text-slate-200 relative">
       <div className="liquid-background">
-        <div className="blob w-96 h-96 bg-blue-400/30 top-[-10%] left-[-10%]" />
-        <div className="blob w-[30rem] h-[30rem] bg-purple-400/20 top-[40%] right-[-10%] animation-delay-2000" />
-        <div className="blob w-80 h-80 bg-emerald-400/20 bottom-[-10%] left-[20%]" />
+        <div className="blob w-[40rem] h-[40rem] bg-blue-600/20 top-[-20%] left-[-10%]" />
+        <div className="blob w-[35rem] h-[35rem] bg-indigo-600/15 top-[30%] right-[-15%]" />
+        <div className="blob w-[30rem] h-[30rem] bg-sky-500/10 bottom-[-10%] left-[10%]" />
       </div>
       <div className="max-w-7xl mx-auto mb-12 mt-8 flex flex-col md:flex-row gap-8 items-start md:items-center justify-between">
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <img 
             src={profileData.avatar} 
             alt={profileData.name} 
-            className="w-32 h-32 rounded-full border-4 border-white dark:border-neutral-800 shadow-lg"
+            className="w-32 h-32 rounded-full border-2 border-blue-500/30 shadow-2xl shadow-blue-500/20"
           />
           <div className="text-center md:text-left">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-2">
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-2 text-white">
               {profileData.name} 
             </h1>
-            <span className="text-neutral-400 text-xl md:text-3xl block mb-4">{profileData.role}</span>
-            <p className="text-lg text-neutral-500 max-w-xl">
+            <span className="text-blue-400 text-xl md:text-3xl block mb-4 font-medium">{profileData.role}</span>
+            <p className="text-lg text-slate-400 max-w-xl">
               {profileData.bio}
             </p>
           </div>
@@ -36,7 +36,7 @@ function App() {
           href={profileData.resumeUrl} 
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-3 bg-neutral-900 dark:bg-white text-white dark:text-black rounded-full font-bold hover:opacity-90 transition-opacity shadow-lg"
+          className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-lg shadow-blue-600/25"
         >
           <Download size={20} />
           Download Resume 📄
@@ -77,7 +77,7 @@ function App() {
         </BentoItem>
 
         {/* Contact Tile */}
-        <BentoItem className="md:col-span-1 md:row-span-1 bg-blue-50 dark:bg-blue-900/10 border-blue-100 dark:border-blue-900/30">
+        <BentoItem className="md:col-span-1 md:row-span-1 border-blue-500/20 bg-blue-500/5">
           <ContactTile />
         </BentoItem>
 
