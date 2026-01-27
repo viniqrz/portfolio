@@ -7,9 +7,9 @@
   },
   {
     "name": "pay-with-crypto-ai",
-    "description": "Full-stack TypeScript app (React/NestJS) facilitating instant crypto-to-fiat payments using AI for risk assessment and dynamic UI generation.",
+    "description": "Full-stack TypeScript app (Node.js/React/NestJS) facilitating instant crypto-to-fiat payments using AI for risk assessment and dynamic UI generation.",
     "url": "https://github.com/viniqrz/pay-with-crypto-ai",
-    "topics": ["typescript", "react", "nestjs", "blockchain", "ai"]
+    "topics": ["node.js", "typescript", "react", "nestjs", "blockchain", "ai"]
   },
   {
     "name": "safe-credit-card-checkout",
