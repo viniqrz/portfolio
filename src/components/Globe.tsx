@@ -33,7 +33,7 @@ const Globe = () => {
 export const GlobeCanvas = () => {
   return (
     <div className="w-full h-full pointer-events-none">
-      <Canvas camera={{ position: [0, 0, 5], fov: 45 }} alpha={true}>
+      <Canvas camera={{ position: [0, 0, 5], fov: 45 }} gl={{ antialias: true, alpha: true }}>
         <ambientLight intensity={1} />
         <pointLight position={[10, 10, 10]} intensity={2} color="#60a5fa" />
         <pointLight position={[-10, -10, -10]} intensity={1} color="#4f46e5" />
