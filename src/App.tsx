@@ -57,7 +57,7 @@ function App() {
           </div>
         </div>
         
-        <div className="flex flex-col items-center gap-4 relative z-20 mt-8 md:mt-0">
+        <div className="flex flex-col items-center gap-4 relative z-20 mt-8 md:mt-0 w-full md:w-auto">
           <motion.div variants={itemVariants} className="w-32 h-32 md:w-40 md:h-40">
              <GlobeCanvas />
           </motion.div>
@@ -68,7 +68,7 @@ function App() {
             href={profileData.resumeUrl} 
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 px-10 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 relative z-20 mt-8 md:mt-0 min-w-[360px]"
+            className="flex items-center justify-center gap-3 px-10 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 relative z-20 mt-8 md:mt-0 w-full md:min-w-[360px] max-w-full"
           >
             <Download size={22} />
             Download Resume 📄
