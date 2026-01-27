@@ -1,4 +1,4 @@
-import { BentoGrid, BentoItem } from './components/BentoGrid';
+import { BentoItem } from './components/BentoGrid';
 import { ProjectsTile } from './components/tiles/ProjectsTile';
 import { ContactTile } from './components/tiles/ContactTile';
 import { LanguagesTile } from './components/tiles/LanguagesTile';
