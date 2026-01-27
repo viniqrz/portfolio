@@ -1,5 +1,6 @@
 import { type ReactNode } from "react";
 import { cn } from "../utils/cn"; // clsx helper
+import { motion } from "framer-motion";
 
 export const BentoGrid = ({ children, className }: { children: ReactNode; className?: string }) => {
   return (
@@ -24,9 +25,14 @@ export const BentoItem = ({
   header?: ReactNode;
 }) => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      whileHover={{ scale: 1.01, translateY: -5 }}
       className={cn(
-        "rounded-3xl group/bento hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500 p-6 glass-card flex flex-col space-y-4 h-full",
+        "rounded-3xl group/bento hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500 p-6 glass-card flex flex-col space-y-4 h-full cursor-default",
         className
       )}
     >
@@ -34,6 +40,6 @@ export const BentoItem = ({
       <div className="h-full flex flex-col">
         {children}
       </div>
-    </div>
+    </motion.div>
   );
 };
