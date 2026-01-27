@@ -31,7 +31,7 @@ export const BentoItem = ({
       )}
     >
       {header}
-      <div className="group-hover/bento:translate-x-2 transition duration-200 h-full flex flex-col">
+      <div className="h-full flex flex-col">
         {children}
       </div>
     </div>
