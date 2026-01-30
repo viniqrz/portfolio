@@ -1,5 +1,11 @@
 [
   {
+    "name": "invoice-generator",
+    "description": "Professional invoice generator with real-time PDF preview, dynamic line items, and local persistence. Built with React, TypeScript, and shadcn/ui.",
+    "url": "https://github.com/viniqrz/invoice-generator",
+    "topics": ["react", "typescript", "pdf-generation", "shadcn-ui", "vite"]
+  },
+  {
     "name": "banking-ledger",
     "description": "Double-entry accounting engine designed as a 'System of Record' for high-velocity financial apps. Built with Java 21, Spring Boot, and PostgreSQL.",
     "url": "https://github.com/viniqrz/banking-ledger",
