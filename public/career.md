@@ -21,6 +21,9 @@ Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resoluç�
 - Lead Management
 - Lead Conversion
 
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
 ### Billing
 
 - Billing Management
@@ -29,6 +32,9 @@ Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resoluç�
 - Billing Reports
 - Billing Analytics
 - Billing Notifications
+
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
 
 ### Delivery/Logistics
 
@@ -41,6 +47,9 @@ Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resoluç�
 - Delivery Notifications
 - Delivery Reports
 
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
 ### Customer Service
 
 - Customer Support
@@ -48,6 +57,9 @@ Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resoluç�
 - Customer Feedback
 - Customer Satisfaction
 - Customer Retention
+
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
 
 ### Equipment Rental
 
@@ -57,16 +69,25 @@ Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resoluç�
 - Equipment Damage
 - Equipment Maintenance
 
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
 ### Rocket Tracking
 
 - Trajectory Simulation
 - 3d visualization
 - Real-time tracking
 
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
 ### Education Platform
 
 - Course Management
 - Student Management
+
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
 
 ### Content Management
 
@@ -74,11 +95,17 @@ Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resoluç�
 - Content Organization
 - Content Scheduling
 
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
 ### Acessibility
 
 - Acessibility Testing
 - Acessibility Compliance
 - Acessibility Training
+
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
 
 ### Data analytics
 
@@ -89,6 +116,9 @@ Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resoluç�
 - Data Analysis
 - Data Modeling
 
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
 ### HR Management
 
 - Employee Management
@@ -96,10 +126,16 @@ Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resoluç�
 - Payroll Management
 - Time Management
 
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
 ### Recruitment
 
 - Job Management
 - Candidate Management
+
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
 
 ### Project Management
 
@@ -107,6 +143,9 @@ Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resoluç�
 - Project Timeline
 - Project Resources
 - Project Status
+
+People: Coworkers names, clients names, suppliers names, partners names, competitors names
+Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
 
 ## Education
 
