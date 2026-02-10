@@ -66,6 +66,8 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 ### Equipment Rental
 
 - Equipment Management
+- Inventory Management
+- Stock Management
 - Equipment Rental
 - Equipment Returns
 - Equipment Damage
