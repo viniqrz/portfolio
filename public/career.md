@@ -53,10 +53,12 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 ### Customer Service
 
 - Customer Support
-- Customer Complaints
-- Customer Feedback
-- Customer Satisfaction
-- Customer Retention
+- Contract Management
+- Contract Renewal
+- Contract Cancellation
+- Contract Termination
+- Contract Negotiation
+- Contract Signing
 
 People: Coworkers names, clients names, suppliers names, partners names, competitors names
 Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
