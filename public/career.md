@@ -4,6 +4,10 @@
 
 ## Experience
 
+Problema, como foi resolvido, quem atuou comigo, qual meu papel, quais os resultados com números
+
+Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resolução de conflitos, feedback, argumentação, negociação, persuasão, liderança
+
 ### Sales
 
 - Sales Management
@@ -12,6 +16,10 @@
 - Monthly and annual subscriptions
 - Payment
 - Checkout
+- CRM Integration
+- CRM Notifications
+- Lead Management
+- Lead Conversion
 
 ### Billing
 
