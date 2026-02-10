@@ -8,6 +8,14 @@ Problema, como foi resolvido, quem atuou comigo, qual meu papel, quais os result
 
 Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resolução de conflitos, feedback, argumentação, negociação, persuasão, liderança
 
+Ler histórico do código, ler PRs, ler conversas, ler infra, ler cloud, ler bancos
+
+Refletir sobre os meus aprendizados, o meu impacto, qualidades e pontos de melhoria
+
+Refletir sobre as soluções, motivações, razões, justificativas, aprendizados
+
+Refletir sobre as pessoas e relacionamentos
+
 ### Sales
 
 - Sales Management
