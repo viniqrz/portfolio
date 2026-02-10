@@ -95,15 +95,20 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 
 ### Content Management
 
-- Content Creation
+- Content Versioning
+- Content History
+- Digital Library
 - Content Organization
 - Content Scheduling
+- Content Analytics
+- Content Tracking
 
 People: Coworkers names, clients names, suppliers names, partners names, competitors names
 Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
 
 ### Acessibility
 
+- Acessibility Tracking
 - Acessibility Testing
 - Acessibility Compliance
 - Acessibility Training
@@ -158,3 +163,5 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 ### BSc in Data Science
 
 ### Master in Fintech & Blockchain
+
+### MBA in Business Administration
