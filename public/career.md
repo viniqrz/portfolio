@@ -29,8 +29,15 @@ Refletir sobre as pessoas e relacionamentos
 - Lead Management
 - Lead Conversion
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 
 ### Billing
 
@@ -41,8 +48,15 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 - Billing Analytics
 - Billing Notifications
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 
 ### Delivery/Logistics
 
@@ -55,8 +69,16 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 - Delivery Notifications
 - Delivery Reports
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
+
 
 ### Customer Service
 
@@ -68,8 +90,17 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 - Contract Negotiation
 - Contract Signing
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
+
 
 ### Equipment Rental
 
@@ -81,8 +112,15 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 - Equipment Damage
 - Equipment Maintenance
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 
 ### Rocket Tracking
 
@@ -90,16 +128,34 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 - 3d visualization
 - Real-time tracking
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
+
 
 ### Education Platform
 
 - Course Management
 - Student Management
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
+
 
 ### Content Management
 
@@ -111,8 +167,17 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 - Content Analytics
 - Content Tracking
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
+
 
 ### Acessibility
 
@@ -121,8 +186,17 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 - Acessibility Compliance
 - Acessibility Training
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
+
 
 ### Data analytics
 
@@ -133,8 +207,15 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 - Data Analysis
 - Data Modeling
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 
 ### HR Management
 
@@ -143,16 +224,30 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 - Payroll Management
 - Time Management
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 
 ### Recruitment
 
 - Job Management
 - Candidate Management
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 
 ### Project Management
 
@@ -161,8 +256,16 @@ Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kuber
 - Project Resources
 - Project Status
 
-People: Coworkers names, clients names, suppliers names, partners names, competitors names
-Technologies: ReactJS, NodeJS, Python, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Git, Jira
+*** People ***
+Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
+
 
 ## Education
 
