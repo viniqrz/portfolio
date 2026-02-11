@@ -11,10 +11,8 @@ Entre pessoas, relacionamentos, comunicação, conflitos de interesse, resoluç�
 Ler histórico do código, ler PRs, ler conversas, ler infra, ler cloud, ler bancos
 
 Refletir sobre os meus aprendizados, o meu impacto, qualidades e pontos de melhoria
-
 Refletir sobre as soluções, motivações, razões, justificativas, aprendizados
-
-Refletir sobre as pessoas e relacionamentos
+Refletir sobre as pessoas, lições, argumentações e conflitos
 
 ### Sales
 
@@ -50,7 +48,7 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 
 *** People ***
 Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Marcus, Josezira, Gabriel BMG, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
@@ -70,8 +68,8 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 - Delivery Reports
 
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Natália, Priscila, Antonio, Yasmin, Paulo
+Peers: Ismael, Lais, Arthur DBA, Gerson, Ariana, Francisco
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
@@ -90,10 +88,29 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 - Contract Negotiation
 - Contract Signing
 
+*** People ***
+Managers: Natália, Priscila, Antonio, Yasmin, Paulo
+Peers: Ismael, Lais, Arthur DBA, Gerson, Ariana, Francisco
+
+*** Stack ***
+Languages: Javascript, Typescript, Python, Ruby
+Frameworks: ReactJS, NodeJS, NestJS
+Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
+Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
+
+### Contract Manager
+
+- Customer Support
+- Contract Management
+- Contract Renewal
+- Contract Cancellation
+- Contract Termination
+- Contract Negotiation
+- Contract Signing
 
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Natália
+Peers: Beritica, Menina do front, Fazendeiro
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
@@ -113,8 +130,8 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 - Equipment Maintenance
 
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Natália
+Peers: Viviane, Bruno, Fazendeiro, Dheyson
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
@@ -128,34 +145,30 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 - 3d visualization
 - Real-time tracking
 
-
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Clovis
+Peers: Dheyson, Concert Team
 
 *** Stack ***
-Languages: Javascript, Typescript, Python, Ruby
-Frameworks: ReactJS, NodeJS, NestJS
-Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
-Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
-
+Languages: Javascript, Java
+Frameworks: JQuery, Spring boot
+Databases: MongoDB
+Infra: AWS
 
 ### Education Platform
 
 - Course Management
 - Student Management
 
-
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Luca, Reuna PO, Paulo
+Peers: Cassia, Dheyson, Romulo, Gabriel, Michelle
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
 Frameworks: ReactJS, NodeJS, NestJS
 Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
 Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
-
 
 ### Content Management
 
@@ -169,15 +182,14 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 
 
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Luca, Reuna PO, Paulo
+Peers: Cassia, Dheyson, Romulo, Gabriel, Michelle
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
 Frameworks: ReactJS, NodeJS, NestJS
 Databases: MS SQL Server, PostgreSQL, DynamoDB, Redis
 Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
-
 
 ### Acessibility
 
@@ -186,10 +198,9 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 - Acessibility Compliance
 - Acessibility Training
 
-
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Luca, Reuna PO, Paulo
+Peers: Cassia, Dheyson, Romulo, Gabriel, Michelle
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
@@ -208,8 +219,8 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 - Data Modeling
 
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Stanley, Shei
+Peers: Lucas, Gabriel, Bruce, Douglas, Rafael, Michelle, Mykael, Lucivan, Alan
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
@@ -225,8 +236,8 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 - Time Management
 
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Stanley, Shei
+Peers: Lucas, Gabriel, Bruce, Douglas, Rafael, Michelle, Mykael, Lucivan, Alan
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
@@ -240,8 +251,8 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 - Candidate Management
 
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Stanley, Shei
+Peers: Lucas, Gabriel, Bruce, Douglas, Rafael, Michelle, Mykael, Lucivan, Alan
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
@@ -257,8 +268,8 @@ Infra: AWS, Terraform, Terragrunt, Bitbucket CI/CD
 - Project Status
 
 *** People ***
-Managers: Ana, Antonio, Natália, Priscila, Yasmin, Paulo
-Peers: José, Ivan, Erik, Paulo, Bruno, Gerson, Ermolau, Ricardo, Danilo, Cassia, Douglas, Mateus, Carol, Antonio Mobile, Eduardo, Claudio (ext) and etc...
+Managers: Stanley, Shei
+Peers: Lucas, Gabriel, Bruce, Douglas, Rafael, Michelle, Mykael, Lucivan, Alan
 
 *** Stack ***
 Languages: Javascript, Typescript, Python, Ruby
