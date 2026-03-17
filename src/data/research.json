@@ -1,14 +1,8 @@
 [
   {
-    "id": "scraper-protocol",
-    "title": "Verifiable Scraping with ZK Proofs",
-    "summary": "Methodology for trustless data acquisition from web sources using zero-knowledge proofs.",
-    "link": "/pdfs/research-paper.pdf"
-  },
-  {
-    "id": "static-arch",
-    "title": "The Renaissance of Static Sites",
-    "summary": "Why modern build tools make serverless architectures superior for personal portfolios.",
-    "link": "#"
+    "id": "web-scraping-ai",
+    "title": "Web Scraping for AI Training",
+    "summary": "A comprehensive study on modern web scraping methodologies optimized for generating high-quality datasets for AI training, focusing on scalability and data integrity.",
+    "link": "/portfolio/WEB SCRAPING FOR AI TRAINING - VINICIUS SOARES.pdf"
   }
 ]

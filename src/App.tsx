@@ -1,6 +1,7 @@
 import { BentoItem } from './components/BentoGrid';
 import { ProjectsTile } from './components/tiles/ProjectsTile';
 import { ImpactTile } from './components/tiles/ImpactTile';
+import { ResearchTile } from './components/tiles/ResearchTile';
 import { ContactTile } from './components/tiles/ContactTile';
 import { LanguagesTile } from './components/tiles/LanguagesTile';
 import { HobbiesTile } from './components/tiles/HobbiesTile';
@@ -69,6 +70,7 @@ function App() {
             href={profileData.resumeUrl} 
             target="_blank"
             rel="noopener noreferrer"
+            download="Vinicius_Soares__CV__Software_Engineer.pdf"
             className="flex items-center justify-center gap-3 px-10 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold transition-all shadow-xl shadow-blue-600/30 relative z-20 mt-8 md:mt-0 w-full md:min-w-[360px] max-w-full"
           >
             <Download size={22} />
@@ -86,6 +88,9 @@ function App() {
             </BentoItem>
             <BentoItem className="h-fit">
               <ImpactTile />
+            </BentoItem>
+            <BentoItem className="h-fit">
+              <ResearchTile />
             </BentoItem>
           </div>
 
