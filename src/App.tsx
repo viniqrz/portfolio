@@ -87,10 +87,10 @@ function App() {
               <ProjectsTile />
             </BentoItem>
             <BentoItem className="h-fit">
-              <ImpactTile />
+              <ResearchTile />
             </BentoItem>
             <BentoItem className="h-fit">
-              <ResearchTile />
+              <ImpactTile />
             </BentoItem>
           </div>
 
