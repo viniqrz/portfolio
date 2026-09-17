@@ -1,3 +1,4 @@
+import { ProfileAvatar } from './components/ProfileAvatar';
 import { BentoItem } from './components/BentoGrid';
 import { ProjectsTile } from './components/tiles/ProjectsTile';
 import { ImpactTile } from './components/tiles/ImpactTile';
@@ -42,11 +43,10 @@ function App() {
         className="max-w-[1124px] mx-auto mb-16 mt-8 flex flex-col md:flex-row gap-8 items-start md:items-center justify-between relative z-10"
       >
         <div className="flex flex-col md:flex-row gap-8 items-center relative z-20">
-          <motion.img 
+          <ProfileAvatar 
             variants={itemVariants}
             src={profileData.avatar} 
             alt={profileData.name} 
-            className="w-32 h-32 md:w-40 md:h-40 rounded-full border-2 border-blue-500/30 shadow-2xl shadow-blue-500/20 relative z-30"
           />
           <div className="text-center md:text-left">
             <motion.h1 variants={itemVariants} className="text-4xl md:text-7xl font-bold tracking-tight mb-2 text-white">
